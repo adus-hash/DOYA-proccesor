@@ -1,1 +1,2 @@
-
+# Pollux 1
+Is my first pipeline processor architecture, I designed it for my educational purposes. It has limited ISA and also it's 8-bit. Basic principle is PC(program counter) points to next instuction in a series of instuctions (called program) in RAM each clock cycle one instruction is fetched from RAM while the other instruction in pipeline is decoding, next stage instuction is executed, after this stage result is write back. So the hole CPU has 4-stage pipeline
